@@ -5,14 +5,31 @@
 
 Follow along the exercise using this [link](https://www.overleaf.com/6693712875hwmfgjtwksxd#38cba4).
 
+# Overleaf
 
-# Comments
+[Overleaf](https://www.overleaf.com) it is a free online latex editor.
+
+1. Two types of editing modes (_visual_ and _code_ editor)
+2. How to add and delete files
+3. How to render a file
+4. How to download the PDF and source
+5. Setting up your editor
+6. Reviewing + chat 
+7. Sharing and collaborative editing
+8. **Advanced**: offline editing
+
+
+# Latex
+
+The following sections explain how to use different latex features.
+
+## Comments
 
 ```
 % this is a comment
 ```
 
-# Formatting
+## Formatting
 
 ```latex
 \textbf{in bold}
@@ -25,7 +42,7 @@ Follow along the exercise using this [link](https://www.overleaf.com/6693712875h
 \st{strikedout text}
 ```
 
-# Sections and chapters
+## Sections and chapters
 
 ```latex
 \chapter{Chapter}
@@ -34,9 +51,9 @@ Follow along the exercise using this [link](https://www.overleaf.com/6693712875h
 \subsubsection{Sub-subsection}
 ```
 
-# Lists
+## Lists
 
-## Bullets
+### Bullets
 
 ```latex
 \begin{itemize}
@@ -46,7 +63,7 @@ Follow along the exercise using this [link](https://www.overleaf.com/6693712875h
 ```
 
 
-## Ordered list
+### Ordered list
 
 ```latex
 \begin{enumerate}
@@ -55,7 +72,7 @@ Follow along the exercise using this [link](https://www.overleaf.com/6693712875h
 \end{enumerate}
 ```
 
-# Citations and References
+## Citations and References
 
 You need to create a `references.bib` file and copy there some references. Here an example of a bib file for [this](https://dl.acm.org/doi/abs/10.1145/1935701.1935740) paper.
 
@@ -89,7 +106,7 @@ Then use this file in your latex file this way.
 \parencite{Bianchi2010} % citation with parenthesis
 ```
 
-# Math
+## Math
 
 Here an example of inline math using the `$` symbol.
 
@@ -100,7 +117,7 @@ Here an equation $E=mc^2$ discovered by Einstein.
 For more examples, look [here](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_math_to_LaTeX).
 
 
-# Tables
+## Tables
 
 You can use an online generator like this [one](https://www.tablesgenerator.com).
 
@@ -116,7 +133,7 @@ You can use an online generator like this [one](https://www.tablesgenerator.com)
 \end{tabular}
 ```
 
-# Images
+## Images
 
 Use this template.
 
@@ -130,7 +147,7 @@ Use this template.
 ```
 
 
-# Referring to things (links)
+## Referring to things (links)
 
 You can create a _label_ and attach it to anything (like an image or a section)
 
@@ -144,9 +161,9 @@ You can then refer to this label
 As we have see in Section \ref{Intro} ...
 ```
 
-# Others
+## Others
 
-## Special characters
+### Special characters
 
 ```latex
 \&       % a & symbol
@@ -156,13 +173,13 @@ As we have see in Section \ref{Intro} ...
 ~        % a white space but ensure the words remain attached
 ```
 
-## Colors
+### Colors
 
 ```latex
 {\color{red} Some text here}
 ```
 
-## New commands
+### New commands
 
 ```latex
 \newcommand{\red}[1]{{\color{red}#1}} 
