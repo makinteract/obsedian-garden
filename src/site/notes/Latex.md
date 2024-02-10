@@ -6,15 +6,13 @@
 Follow along the exercise using this [link](https://www.overleaf.com/6693712875hwmfgjtwksxd#38cba4).
 
 
-# Basics
-
-## Comments
+# Comments
 
 ```
 % this is a comment
 ```
 
-## Formatting
+# Formatting
 
 ```latex
 \textbf{in bold}
@@ -27,7 +25,7 @@ Follow along the exercise using this [link](https://www.overleaf.com/6693712875h
 \st{strikedout text}
 ```
 
-## Sections and chapters
+# Sections and chapters
 
 ```latex
 \chapter{Chapter}
@@ -57,7 +55,7 @@ Follow along the exercise using this [link](https://www.overleaf.com/6693712875h
 \end{enumerate}
 ```
 
-## References
+# Citations and References
 
 You need to create a `references.bib` file and copy there some references. Here an example of a bib file for [this](https://dl.acm.org/doi/abs/10.1145/1935701.1935740) paper.
 
@@ -91,7 +89,7 @@ Then use this file in your latex file this way.
 \parencite{Bianchi2010} % citation with parenthesis
 ```
 
-## Math
+# Math
 
 Here an example of inline math using the `$` symbol.
 
@@ -102,9 +100,9 @@ Here an equation $E=mc^2$ discovered by Einstein.
 For more examples, look [here](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_math_to_LaTeX).
 
 
-### Tables
+# Tables
 
-You can use an online generator like this [one]().
+You can use an online generator like this [one](https://www.tablesgenerator.com).
 
 ```
  \begin{tabular}{||c c c||} 
@@ -118,26 +116,34 @@ You can use an online generator like this [one]().
 \end{tabular}
 ```
 
-### Images
+# Images
 
 
 TODO
 
 
+# Others
 
-### Colors
+## Special characters
+
+```latex
+\&       % a & symbol
+\$       % a dollar sign
+---      % a long dash
+\\       % force end of line
+~        % a white space but ensure the words remain attached
+```
+
+
+## Colors
 
 ```latex
 {\color{red} Some text here}
 ```
 
-### New commands
+## New commands
 
 ```latex
 \newcommand{\red}[1]{{\color{red}#1}} 
 ```
 
-
-### References
-
-[Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
