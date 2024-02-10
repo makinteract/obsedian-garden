@@ -3,37 +3,43 @@
 ---
 
 
+Follow along the exercise using this [link](https://www.overleaf.com/6693712875hwmfgjtwksxd#38cba4).
 
-### Basics
 
-1. Comments
+# Basics
+
+## Comments
+
 ```
 % this is a comment
 ```
 
-2. Formatting
+## Formatting
+
 ```latex
-\textbf{}
-\textit{}
-\underline{}
+\textbf{in bold}
+\textit{italic}
+\underline{underlined text}
 
 
 % strikeout
 \usepackage{soul}
-\st{Hello World}
+\st{strikedout text}
 ```
 
-3. Sections
+## Sections and chapters
+
 ```latex
-\chapter{}
-\section{}
-\subsection{}
-\subsubsection{}
+\chapter{Chapter}
+\section{Setion}
+\subsection{Subsection}
+\subsubsection{Sub-subsection}
 ```
 
-### Lists
+# Lists
 
-1. Unordered list
+## Bullets
+
 ```latex
 \begin{itemize}
   \item Something
@@ -41,7 +47,9 @@
 \end{itemize}
 ```
 
-2. Ordered list
+
+## Ordered list
+
 ```latex
 \begin{enumerate}
   \item Something
@@ -49,28 +57,55 @@
 \end{enumerate}
 ```
 
-### Citations
+## References
 
-```latex
-\bibliographystyle{acm}
-\bibliography{references}
+You need to create a `references.bib` file and copy there some references. Here an example of a bib file for [this](https://dl.acm.org/doi/abs/10.1145/1935701.1935740) paper.
 
-\cite{}
-\parencite{}
+
+```
+@inproceedings{Bianchi2010,
+author = {Bianchi, Andrea and Oakley, Ian and Kostakos, Vassilis and Kwon, Dong Soo},
+title = {The phone lock: audio and haptic shoulder-surfing resistant PIN entry methods for mobile devices},
+year = {2010},
+isbn = {9781450304788},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1935701.1935740},
+doi = {10.1145/1935701.1935740},
+booktitle = {Proceedings of the Fifth International Conference on Tangible, Embedded, and Embodied Interaction},
+pages = {197–200},
+numpages = {4},
+keywords = {audio, authentication, haptic, mobile, pin entry, security},
+location = {Funchal, Portugal},
+series = {TEI '11}
+}
 ```
 
-### Math
+Then use this file in your latex file this way.
 
-1. Inline
+```latex
+\bibliographystyle{acm} % choose a style
+\bibliography{references}
+
+\cite{Bianchi2010} % regular citation
+\parencite{Bianchi2010} % citation with parenthesis
+```
+
+## Math
+
+Here an example of inline math using the `$` symbol.
+
 ```latex
 Here an equation $E=mc^2$ discovered by Einstein.
 ```
 
+For more examples, look [here](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_math_to_LaTeX).
 
 
 ### Tables
 
-You can use an online generator
+You can use an online generator like this [one]().
+
 ```
  \begin{tabular}{||c c c||} 
  \hline
