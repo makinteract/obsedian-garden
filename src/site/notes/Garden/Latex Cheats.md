@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/latex-cheats/","tags":["cheats","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/garden/latex-cheats/","tags":["cheats","gardenEntry"]}
 ---
 
 
@@ -121,7 +121,7 @@ For more examples, look [here](https://www.overleaf.com/learn/latex/Learn_LaTeX_
 
 You can use an online generator like this [one](https://www.tablesgenerator.com).
 
-```
+```latex
  \begin{tabular}{||c c c||} 
  \hline
  Col1 & Col2 & Col2 \\ [0.5ex] 
