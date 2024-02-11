@@ -2,11 +2,15 @@
 {"dg-publish":true,"permalink":"/garden/tmux-cheats/","tags":["cheats"]}
 ---
 
-### Note
 
-`C-b` is `ctrl+b`
+# Tmux 🖥️
 
-### Panes
+
+> [!NOTE] Note
+> `C-b` is `ctrl+b`
+
+
+## Panes
 
 - Split horizontal: `C+b %`
 - Split vertical `C+b "`
@@ -15,7 +19,7 @@
 - Exit: `C+d` or `exit`
     
 
-### Windows
+## Windows
 
 - New window `C-b c`
 - Next window: `C-b n`
@@ -23,7 +27,7 @@
 - Rename current window `C-b ,`
     
 
-### Session Handling
+## Session Handling
 
 - List sessions: `tmux ls` or `tmux list-sessions`
 - New session: `tmux new -s <name>`
@@ -32,9 +36,12 @@
 - Rename session: `tmux rename-session -t 0 <name>`
     
 
-### Reference
+## Reference
 
 Full reference [link](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux)
 ​
+
+
+## Tags
 
 #cheats #linux
