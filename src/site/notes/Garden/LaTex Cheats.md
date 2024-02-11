@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry"]}
 ---
 
 
-# Overleaf 🤯
+# Intro to Overleaf 🤯
 
 - Online LaTeX --- *no setup required*
 - Many templates available --- *no need to make your own*
@@ -15,7 +15,7 @@
 
 Follow along the exercise using this [link](https://www.overleaf.com/6693712875hwmfgjtwksxd#38cba4).
 
-# Overleaf
+# Overleaf interface
 
 [Overleaf](https://www.overleaf.com) it is a free online latex editor.
 
@@ -196,6 +196,11 @@ As we have see in Section \ref{Intro} ...
 ```latex
 \newcommand{\red}[1]{{\color{red}#1}} 
 ```
+
+
+## External references
+
+- [Overleaf in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
 
 ## Tags
 
