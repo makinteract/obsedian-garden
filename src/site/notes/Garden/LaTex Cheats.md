@@ -195,3 +195,6 @@ As we have see in Section \ref{Intro} ...
 \newcommand{\red}[1]{{\color{red}#1}} 
 ```
 
+## Tags
+
+#cheats #code #laTeX
