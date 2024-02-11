@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry"]}
 ---
 
 
@@ -178,9 +178,11 @@ As we have see in Section \ref{Intro} ...
 ```latex
 \&       % a & symbol
 \$       % a dollar sign
+\%       % add a % symbol
 ---      % a long dash
 \\       % force end of line
 ~        % a white space but ensure the words remain attached
+\clearpage. % break the page
 ```
 
 ### Colors
