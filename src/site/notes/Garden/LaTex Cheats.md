@@ -3,6 +3,16 @@
 ---
 
 
+# Overleaf 🔑
+
+- Online LaTeX --- *no setup required*
+- Many templates available --- *no need to make your own*
+- Good community and tutorials --- many resources if you get lost
+- *Free* or paid by your university
+
+
+# Example
+
 Follow along the exercise using this [link](https://www.overleaf.com/6693712875hwmfgjtwksxd#38cba4).
 
 # Overleaf
