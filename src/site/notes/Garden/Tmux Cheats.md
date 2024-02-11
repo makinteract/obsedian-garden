@@ -32,7 +32,9 @@
 - Rename session: `tmux rename-session -t 0 <name>`
     
 
-### 
+### Reference
 
 Full reference [link](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux)
 ​
+
+#cheats #linux
