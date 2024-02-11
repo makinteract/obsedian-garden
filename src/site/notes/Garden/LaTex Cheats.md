@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry"]}
 ---
 
 
@@ -87,7 +87,7 @@ The following sections explain how to use different latex features.
 You need to create a `references.bib` file and copy there some references. Here an example of a bib file for [this](https://dl.acm.org/doi/abs/10.1145/1935701.1935740) paper.
 
 
-```
+```json
 @inproceedings{Bianchi2010,
 author = {Bianchi, Andrea and Oakley, Ian and Kostakos, Vassilis and Kwon, Dong Soo},
 title = {The phone lock: audio and haptic shoulder-surfing resistant PIN entry methods for mobile devices},
