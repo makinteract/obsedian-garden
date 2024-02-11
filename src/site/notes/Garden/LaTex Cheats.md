@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry"]}
+{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry","gardenEntry"]}
 ---
 
 
-# Overleaf 🔑
+# Overleaf 🤯
 
 - Online LaTeX --- *no setup required*
 - Many templates available --- *no need to make your own*
