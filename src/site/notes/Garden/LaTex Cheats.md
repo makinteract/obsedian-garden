@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/garden/la-tex-cheats/","tags":["cheats","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
