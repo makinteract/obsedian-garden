@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/u25-conf/hotels/"}
 ---
 
-
+## Hotels in 서울
 | Name | Location | Note |
 | ---- | ---- | ---- |
 | [Walker Hill](https://www.walkerhill.com/grandwalkerhillseoul/convention/Meeting) | East서울 |  |
