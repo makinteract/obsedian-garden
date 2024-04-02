@@ -46,6 +46,7 @@ The following sections explain how to use different latex features.
 \textit{italic}
 \underline{underlined text}
 \say{This is quoted text}
+``This is also quoted text''
 
 % strikeout
 \usepackage{soul}
