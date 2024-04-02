@@ -194,7 +194,10 @@ As we have see in Section \ref{Intro} ...
 ### New commands
 
 ```latex
+% Colors
 \newcommand{\red}[1]{{\color{red}#1}} 
+% Stats
+\newcommand{\statsum}[3]{{\small $M=#1\,#3$, $SD=#2\,#3$}}
 ```
 
 
