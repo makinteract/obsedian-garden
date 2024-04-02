@@ -199,6 +199,10 @@ As we have see in Section \ref{Intro} ...
 \newcommand{\red}[1]{{\color{red}#1}} 
 % Stats
 \newcommand{\statsum}[3]{{\small $M=#1\,#3$, $SD=#2\,#3$}}
+% project name
+\newcommand{\projectName}{SpaceTalk}
+% and use it this way
+\projectName{} and \projectName{'s} and \projectName{-Something}
 ```
 
 
