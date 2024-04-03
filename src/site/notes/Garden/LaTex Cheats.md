@@ -201,6 +201,8 @@ As we have see in Section \ref{Intro} ...
 \newcommand{\statsum}[3]{{\small $M=#1\,#3$, $SD=#2\,#3$}}
 % project name
 \newcommand{\projectName}{SpaceTalk}
+ % ensure that the name is not broken with the mbox command
+\newcommand{\projectName}{\mbox{SpaceTalk}}
 % and use it this way
 \projectName{} and \projectName{'s} and \projectName{-Something}
 ```
